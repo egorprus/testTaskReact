@@ -1,0 +1,108 @@
+.App {
+    display: flex;
+}
+.main {
+    flex: 1;
+}
+.aside {
+    width: 320px;
+    margin-right: 50px;
+    border-right: 1px solid #000000;
+}
+
+.list_item {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, .5);
+}
+.list_btn {
+    align-self: center;
+    cursor: pointer;
+}
+.list_link {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #000000;
+    flex: 1;
+}
+.list_edit {
+    align-self: center;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+}
+.list_edit:hover {
+    color: #223ae7;
+}
+.list_item .list_link:hover {
+    color: #223ae7;
+}
+.controllers {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    border-bottom: 1px solid #000000;
+}
+.controllers_item + .controllers_item {
+    margin-top: 10px;
+}
+.create-new-user_link {
+    display: inline-block;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.create-new-user_link:hover {
+    color: salmon;
+}
+.search {
+    height: 30px;
+}
+.add_btn {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+.field_wrapper {
+    display: flex;
+    align-items: center;
+}
+.field_value {
+    display: inline-block;
+    margin-left: 10px;
+}
+.field_btn {
+    display: inline-block;
+    margin-left: 10px;
+}
+.fields-group {
+    width: 50%;
+    padding: 10px;
+}
+.fields-group_title {
+    margin-bottom: 20px;
+}
+.user-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.form_input {
+    display: flex;
+}
+.form_input label {
+    min-width: 100px;
+}
+.form_input + .form_input {
+    margin-top: 20px;
+}
